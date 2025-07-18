@@ -42,7 +42,6 @@ user_id = 'parthchawla65@gmail.com'
 # Here we dont need to pass the session_id inside the method as we have defined it in our agent itself, same goes for user_id if it is defined inside the agent we dont need to pass it in every invoke.
 agent.print_response('My name is Parth Chawla. I like to code, I am currently coding ai agents using agno.', user_id=user_id, session_id='003')
 agent.print_response('What are my hobbies?', user_id=user_id)
-agent.print_response('My love is Masha Israfilova', user_id=user_id)
 agent.print_response('List down all the question i asked so far', user_id=user_id)
 
 # We can get the session summary using the get_session_summary method of the Memory class.
