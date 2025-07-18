@@ -8,14 +8,17 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13 <4.0"
 dependencies = [
-    "agno (>=1.7.4,<2.0.0)",
     "pydantic (>=2.11.7,<3.0.0)",
     "yfinance (>=0.2.65,<0.3.0)",
     "duckduckgo-search (>=8.1.1,<9.0.0)",
     "python-dotenv (>=1.1.1,<2.0.0)",
     "groq (>=0.30.0,<0.31.0)",
     "openai (>=1.97.0,<2.0.0)",
-    "requests (>=2.32.4,<3.0.0)"
+    "requests (>=2.32.4,<3.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "fastapi[standard] (>=0.116.1,<0.117.0)",
+    "agno (>=1.7.5,<2.0.0)",
+    "pymongo (>=4.13.2,<5.0.0)",
 ]
 
 

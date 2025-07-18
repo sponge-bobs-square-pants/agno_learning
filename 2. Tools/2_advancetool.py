@@ -56,6 +56,7 @@ class CustomTool:
     
     # THERE CAN BE MORE PARAMETERS SUCH AS: requires_user_input, user_input_fields, external_execution
     # Exact list and explanation can be found at https://docs.agno.com/tools/tool-decorator
+    
     @tool( name="get_data_joke", show_result=True, stop_after_tool_call=True, description="Fetch a random dad joke from the icanhazdadjoke API.", tool_hooks=[logger], requires_confirmation=False, cache_results=True, cache_dir='/Users/parth/Desktop/personal/agno/cache', cache_ttl=3600)
     
     def get_dad_joke() -> str:
