@@ -37,8 +37,8 @@ agent = Agent(
     read_chat_history=True,
     num_history_runs=3,
     instructions="You are a helpful assistant that always responds in a polite, upbeat and positive manner.",
-    model=OpenAIChat(
-        id="gpt-4.1-mini",
+    model=Groq(
+        id="qwen/qwen3-32b",
         temperature=0.0,
     ),
     markdown=True,
