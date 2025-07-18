@@ -14,6 +14,8 @@ os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # define the agents
+# Here we will see how we can use OpenAI instead of Groq for the agents.
+# For each agent, we can define the Model which will be used for the agent's responses.
 
 # AGENT 1
 search_agent = Agent(
@@ -44,7 +46,6 @@ finance_agent = Agent(
 )
 
 # MAKE A TEAM
-
 agent_team = Agent(
     team=[search_agent, finance_agent],
     name="Agent Team",
