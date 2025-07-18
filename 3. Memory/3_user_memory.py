@@ -43,6 +43,8 @@ agent = Agent(
 # You can check what data is saved using the following command:
     # sqlite3 tmp/data.db
     # SELECT * FROM memory WHERE user_id = 'parthchawla65@gmail.com';
+    
+
 user_id = 'parthchawla65@gmail.com'
 # agent.print_response('My name is Parth Chawla. I like to code, I am currently coding ai agents using agno.', user_id=user_id)
 agent.print_response('What are my hobbies?', user_id=user_id)
