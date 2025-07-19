@@ -33,7 +33,7 @@ class CustomTool:
         
     # THE TOOL DECORATOR CAN TAKE THESE PROPERTIES, BELOW IS THE LIST AND THE EXPLANATION:
     
-    # 1. NameL The name of the tool, which will be used to call it.
+    # 1. Name: The name of the tool, which will be used to call it.
     
     # 2. Show_result: Whether to show the result of the tool call in the response, sometimes the tool might need to be called but the response does not need to appear the result.
     
@@ -58,7 +58,6 @@ class CustomTool:
     # Exact list and explanation can be found at https://docs.agno.com/tools/tool-decorator
     
     @tool( name="get_data_joke", show_result=True, stop_after_tool_call=True, description="Fetch a random dad joke from the icanhazdadjoke API.", tool_hooks=[logger], requires_confirmation=False, cache_results=True, cache_dir='/Users/parth/Desktop/personal/agno/cache', cache_ttl=3600)
-    
     def get_dad_joke() -> str:
         """
         Fetch a random dad joke.
