@@ -1,18 +1,16 @@
 # agno_learning
 
 ![Python](https://img.shields.io/badge/python-3.13%2B-blue)
-![LangGraph](https://img.shields.io/badge/LangGraph-0.5.2%2B-brightgreen)
+![Agno](https://img.shields.io/badge/Agno-1.7.5%2B-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-A modern, modular playground for building, experimenting with, and learning about agentic AI systems using the Agno framework, LangGraph, and state-of-the-art LLMs (Groq, OpenAI, etc). This project demonstrates best practices for agent design, tool integration, memory, state management, and human-in-the-loop workflows.
+A modern, modular playground for building, experimenting with, and learning about agentic AI systems using the Agno framework, and state-of-the-art LLMs (Groq, OpenAI, etc). This project demonstrates best practices for agent design, tool integration, memory, state management, and human-in-the-loop workflows.
 
 ---
 
 ## WARNING:
 
 - **THE READ ME FILE IS COMPLETELY GENERATED USING copilot. User discretion is advised.**
-
----
 
 ---
 
@@ -25,7 +23,7 @@ A modern, modular playground for building, experimenting with, and learning abou
 - **Memory**: Implement session, user, and summary memory for context retention.
 - **Human-in-the-Loop**: Add user approval and feedback steps for safe, robust agents.
 - **Modern LLMs**: Integrate with Groq, OpenAI, and more.
-- **Best Practices**: Follows LangGraph 0.5.2+ standards and agentic design patterns.
+- **Best Practices**: Follows Agno 1.7.5+ standards and agentic design patterns.
 
 ---
 
