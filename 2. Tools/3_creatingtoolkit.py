@@ -104,6 +104,8 @@ include_agent = Agent(
     show_tool_calls=True,
 )
 
+# There is another property called requires_confirmation_tools which will be covered in module 5, this basically requires the user to confirm before the flow continues. Also commonly referred to as "Human in the loop" or HITL, this is used to get the user confirmation before proceeding with the tool call for important actions such as deleting data, making payments, etc.
+
 agent.print_response("Give me a dad joke, then a random fact, and finally a inspirational quote.")
 exclude_agent.print_response("Give me a random fact and an inspirational quote")
 include_agent.print_response("Give me a dad joke and a inspirational quote")
