@@ -23,7 +23,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # AGENT 1
 searcher = Agent(
-    name="Search Agent",
+    name="Search Journalist",
     role="An agent that can search the web using DuckDuckGo.",
     instructions=[
         "Given a topic, first generate a list of 3 search terms related to that topic.",
@@ -41,7 +41,7 @@ searcher = Agent(
 
 # AGENT 2
 writer = Agent(
-    name="Writer Agent",
+    name="Writer",
     role="Writes a high-quality article",
     description=(
         "You are a senior writer for the Times of India. Given a topic and a list of URLs, "
