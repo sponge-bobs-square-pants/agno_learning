@@ -64,6 +64,7 @@ team = Team(
     members=[search_agent, finance_agent],
     show_tool_calls=True,
     markdown=True,
+    add_datetime_to_instructions=True,
     instructions=["Always include sources", "Use tables to display data", "For stock analysis always use the finance agent and for web search use the search agent"],
     show_members_responses=True,
 )
